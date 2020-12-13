@@ -1,10 +1,20 @@
-h1 {
-  color: blue;
-  font-size: 40px;
+.main__nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: #13a4a4;
 }
-.parrafo {
-  color: #ff0000;
+.main__nav--item {
+  display: inline-block;
 }
-#titulo {
-  color: blueviolet;
+.main__nav--item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.main__nav--item a:hover {
+  color: darkgray;
+}
+.main__nav--item a::after {
+  content: " | ";
 }
