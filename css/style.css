@@ -18,3 +18,16 @@
 .main__nav--item a::after {
   content: " | ";
 }
+.caja {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid black;
+}
+.box {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+}
+#two {
+  background-color: gold;
+}
